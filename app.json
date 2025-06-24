@@ -1,42 +1,32 @@
 {
   "expo": {
     "name": "MyPushApp",
-    "slug": "MyPushApp",
+    "slug": "my-push-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "mypushapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "plugins": [
+      "expo-notifications"
+    ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.currenciesdirect.mobileappdev",
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.currenciesdirect.mobileappdev",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "90315087-c360-4629-8e6f-e17d39500eaf"
+      }
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+    "owner": "abhay789"
   }
 }

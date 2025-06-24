@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45805896697",
+    "project_id": "push-demo-949f5",
+    "storage_bucket": "push-demo-949f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45805896697:android:95271cb4364b53f4ceb328",
+        "android_client_info": {
+          "package_name": "com.currenciesdirect.mobileappdev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsaWQ3h6PCBTdrNwW3jgMSB0ma7yA9oiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
